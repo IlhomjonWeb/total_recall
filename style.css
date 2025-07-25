@@ -1,0 +1,137 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Jura", sans-serif;
+}
+
+.container {
+    margin: 0px 50px;
+}
+
+.hero_page {
+    background-image: url('./images/background\ image.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px 0px;
+    margin-bottom: 70px;
+}
+
+.navbar .nav {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    gap: 40px;
+}
+
+.navbar .nav .nav_link a {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    color: #fff;
+    transition: 0.3s all;
+
+}
+
+.navbar .nav .nav_link a:hover {
+    color: lightcoral;
+}
+
+.navbar .btn_outline-white {
+    border: 2px solid #fff;
+    font-weight: 700;
+    font-size: 18px;
+    cursor: pointer;
+    padding: 12px 24px;
+    color: #fff;
+    transition: 0.3s all;
+}
+
+.navbar .btn_outline-white:hover {
+    border: 2px solid transparent;
+    background-color: #fff;
+    color: #000;
+}
+
+.hero_banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero_banner .hero_title {
+    text-align: center;
+    color: #fff;
+}
+
+.hero_banner .hero_title h3 {
+    font-weight: 400;
+    font-size: 50px;
+    margin-bottom: 26px;
+}
+
+.hero_banner .hero_title h1 {
+    font-size: 160px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+}
+
+.hero_banner .search-widget {
+    display: flex;
+    margin-bottom: 70px;
+    gap: 2px;
+    cursor: pointer;
+}
+
+.hero_banner .search-widget .widget_item {
+    padding: 20px 30px;
+    background-color: #FFFFFFBF;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hero_banner .search-widget .widget_item span {
+    color: #130B02;
+    font-weight: 600;
+    font-size: 19px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    cursor: pointer;
+}
+
+.hero_banner .search-widget .widget_item input {
+    outline: none;
+    color: #130B02;
+    font-weight: 700;
+    font-size: 19px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.hero_banner .btn_orange {
+    padding: 38px 30px;
+    background-color: #FF9122;
+    border: none;
+    font-size: 19px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: 0.3s all;
+    color: #fff;
+}
+
+.hero_banner .btn_orange:hover {
+    background-color: #FFAB57;
+    color: #fff;
+}
